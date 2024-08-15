@@ -16,7 +16,7 @@ app.get("/todos", (req, res) => {
     res.send(user);
 });
 
-app.listen(3000);
+app.listen(3000);  //to listen from port
 
 
 //console.log(app);
